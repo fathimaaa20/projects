@@ -6,11 +6,11 @@ place = input("Enter a place: ")
 object1 = input("Enter a magical object: ")
 
 story = f"""
-🌟 Once upon a time, there was a {adj} girl named {noun}.
+Once upon a time, there was a {adj} girl named {noun}.
 She loved to {verb1} every day.
 
-One day, she decided to {verb2} in the {place}. 🏞️
-There, she discovered a glowing {object1} ✨ and her life changed forever!
+One day, she decided to {verb2} in the {place}. 
+There, she discovered a glowing {object1}  and her life changed forever!
 """
 
 print(story)
