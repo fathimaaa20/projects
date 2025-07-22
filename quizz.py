@@ -24,7 +24,7 @@ questions = [
 def quiz(questions):
     score = 0
     for question in questions:
-        print("\n" + question["Question"])  # Adds spacing before question
+        print(question["Question"])  # Adds spacing before question
         for option in question["Options"]:
             print(option)
         answer = input("Enter your answer (A/B/C/D): ").strip().upper()
